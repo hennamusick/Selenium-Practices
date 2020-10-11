@@ -1,9 +1,6 @@
 package com.pom.prac.tests;
 
 import java.time.LocalDate;
-import java.time.YearMonth;
-import java.util.Calendar;
-import java.util.Date;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
