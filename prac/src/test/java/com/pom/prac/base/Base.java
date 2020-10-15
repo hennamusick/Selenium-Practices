@@ -18,7 +18,7 @@ public class Base {
 		driver.get("https://blazedemo.com");
 		return driver;
 	}
-	
+
 	public static WebDriver setupDriverForDropDowns() {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--incognito");
@@ -27,7 +27,7 @@ public class Base {
 		driver.get("https://www.spicejet.com");
 		return driver;
 	}
-	
+
 	public static WebDriver setupDriverAutoSuggestions() {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--incognito");
@@ -36,13 +36,22 @@ public class Base {
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise");
 		return driver;
 	}
-	
+
 	public static WebDriver setupDriverForWindowAlert() {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--incognito");
 		System.setProperty("webdriver.chrome.driver", "D:\\Files\\Projects\\Browsers Exe Files\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice");
+		return driver;
+	}
+
+	public static WebDriver setupDriverForShoppingCart() {
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--incognito");
+		System.setProperty("webdriver.chrome.driver", "D:\\Files\\Projects\\Browsers Exe Files\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
 		return driver;
 	}
 }
