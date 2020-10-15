@@ -43,7 +43,7 @@ public class ShoppingCartProductsPage {
 				addToCartButtons.get(i).click();
 				System.out.println("add to cart");
 
-				if (j == 3) {
+				if (j == productItems.length) {
 					break;
 				}
 			}
