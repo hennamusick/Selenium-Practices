@@ -22,7 +22,7 @@ public class ShoppingCartProductsPage {
 	@FindBy(className = "product-name")
 	List<WebElement> products;
 
-	@FindBy(xpath = "//button[text()='ADD TO CART']")
+	@FindBy(xpath = "//div[@class = 'product-action']/button")
 	List<WebElement> addToCartButtons;
 
 	public void gettingMultipleProductsToTheCart() {
