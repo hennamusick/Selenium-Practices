@@ -15,6 +15,7 @@ public class Base {
 	public static WebDriver setupDriver() {
 		System.setProperty("webdriver.chrome.driver", "D:\\Files\\Projects\\Browsers Exe Files\\chromedriver.exe");
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.get("https://blazedemo.com");
 		return driver;
 	}
@@ -24,6 +25,7 @@ public class Base {
 		options.addArguments("--incognito");
 		System.setProperty("webdriver.chrome.driver", "D:\\Files\\Projects\\Browsers Exe Files\\chromedriver.exe");
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.get("https://www.spicejet.com");
 		return driver;
 	}
@@ -33,6 +35,7 @@ public class Base {
 		options.addArguments("--incognito");
 		System.setProperty("webdriver.chrome.driver", "D:\\Files\\Projects\\Browsers Exe Files\\chromedriver.exe");
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise");
 		return driver;
 	}
@@ -42,6 +45,7 @@ public class Base {
 		options.addArguments("--incognito");
 		System.setProperty("webdriver.chrome.driver", "D:\\Files\\Projects\\Browsers Exe Files\\chromedriver.exe");
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice");
 		return driver;
 	}
@@ -51,6 +55,7 @@ public class Base {
 		options.addArguments("--incognito");
 		System.setProperty("webdriver.chrome.driver", "D:\\Files\\Projects\\Browsers Exe Files\\chromedriver.exe");
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
 		return driver;
 	}
