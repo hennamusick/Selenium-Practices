@@ -21,7 +21,7 @@ public class ActionsTest {
 	public void verifyCapitalLettersAsInputInSearchBar() {
 		WebDriver driver = Base2.setupDriver(6);
 		ActionsPage actionsPage = new ActionsPage(driver);
-		String searchText = "new mobile";
+		String searchText = "mobile";
 		actionsPage.addCapitalLetterToSearchBar(searchText);
 	}
 }
