@@ -59,4 +59,14 @@ public class Base {
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
 		return driver;
 	}
+	
+	public static WebDriver herkuAppDynamicLoading() {
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--incognito");
+		System.setProperty("webdriver.chrome.driver", "D:\\Files\\Projects\\Browsers Exe Files\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://the-internet.herokuapp.com/dynamic_loading/1");
+		return driver;
+	}
 }

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.pom.prac.tests.ShoppingCartProductsTest">
+      <class name="com.pom.prac.tests.DropDownTest">
         <methods>
-          <include name="verifyThatSelectingMultipleProducts"/>
+          <include name="verifyThatTheALandingPageIsNavigatingCorrectly"/>
         </methods>
-      </class> <!-- com.pom.prac.tests.ShoppingCartProductsTest -->
+      </class> <!-- com.pom.prac.tests.DropDownTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

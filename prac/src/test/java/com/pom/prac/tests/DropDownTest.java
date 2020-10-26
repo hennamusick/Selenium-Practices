@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 
 import com.pom.prac.base.Base;
+import com.pom.prac.base.Base2;
 import com.pom.prac.pages.DropDownPage;
 
 @Test
@@ -34,7 +35,10 @@ public class DropDownTest {
 
 	@Test
 	public void verifyThatTheALandingPageIsNavigatingCorrectly() {
-		WebDriver driver = Base.setupDriverForDropDowns();
+		
+		int j = 3; WebDriver driver = Base2.setupDriver(j);
+		 
+		//WebDriver driver = Base.setupDriverForDropDowns();
 		DropDownPage dropDownPage = new DropDownPage(driver);
 		dropDownPage.selectCurrency();
 		Assert.assertEquals(dropDownPage.getSelectedCurrencyValue(), "AED");
