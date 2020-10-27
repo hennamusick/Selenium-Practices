@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.pom.prac.tests.ActionsTest">
+      <class name="com.pom.prac.tests.HandlingMultipleWindowsTest">
         <methods>
-          <include name="verifyMouseHover"/>
+          <include name="verifyHandlingMultipleWindow"/>
         </methods>
-      </class> <!-- com.pom.prac.tests.ActionsTest -->
+      </class> <!-- com.pom.prac.tests.HandlingMultipleWindowsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
