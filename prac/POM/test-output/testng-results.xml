@@ -7,10 +7,10 @@
     </groups>
     <test started-at="2020-10-11T10:10:22Z" name="Default test" finished-at="2020-10-11T10:10:30Z" duration-ms="7435">
       <class name="com.pom.prac.tests.WindowAlertTest">
-        <test-method signature="verifyTheAcceptingAlertWindow()[pri:0, instance:com.pom.prac.tests.WindowAlertTest@1807e3f6]" started-at="2020-10-11T10:10:22Z" name="verifyTheAcceptingAlertWindow" finished-at="2020-10-11T10:10:30Z" duration-ms="7359" status="PASS">
+        <test-method signature="testTheAcceptingAlertWindow()[pri:0, instance:com.pom.prac.tests.WindowAlertTest@1807e3f6]" started-at="2020-10-11T10:10:22Z" name="testTheAcceptingAlertWindow" finished-at="2020-10-11T10:10:30Z" duration-ms="7359" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTheAcceptingAlertWindow -->
+        </test-method> <!-- testTheAcceptingAlertWindow -->
       </class> <!-- com.pom.prac.tests.WindowAlertTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

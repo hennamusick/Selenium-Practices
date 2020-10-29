@@ -13,7 +13,7 @@ import com.pom.prac.pages.DropDownPage;
 public class CalenderUITest {
 
 	@Test
-	public void verifyThatCurrentDayIsPickedUpCorrectly() {
+	public void testThatCurrentDayIsPickedUpCorrectly() {
 		WebDriver driver = Base.setupDriverForDropDowns();
 		DropDownPage dropDownPage = new DropDownPage(driver);
 		CalenderUIPage calenderUIPage = new CalenderUIPage(driver);

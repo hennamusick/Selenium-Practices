@@ -28,7 +28,7 @@ public class DropDownTest {
 	 */
 
 	@Test
-	public void averifyadeals() {
+	public void atestadeals() {
 		WebDriver driver = Base.setupDriverForDropDowns();
 		DropDownPage dropDownPage = new DropDownPage(driver);
 		dropDownPage.clickDeals();
@@ -36,7 +36,7 @@ public class DropDownTest {
 	}
 
 	@Test
-	public void verifyThatTheALandingPageIsNavigatingCorrectly() {
+	public void testThatTheALandingPageIsNavigatingCorrectly() {
 		WebDriver driver = Base.setupDriverForDropDowns();
 		DropDownPage dropDownPage = new DropDownPage(driver);
 		dropDownPage.selectCurrency();
@@ -45,7 +45,7 @@ public class DropDownTest {
 	}
 
 	@Test
-	public void verifyThatTheFromAndToIsSelectingCorrectly() throws InterruptedException {
+	public void testThatTheFromAndToIsSelectingCorrectly() throws InterruptedException {
 		WebDriver driver = Base.setupDriverForDropDowns();
 		DropDownPage dropDownPage = new DropDownPage(driver);
 		dropDownPage.clickFromDropDown();

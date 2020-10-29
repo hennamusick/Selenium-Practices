@@ -9,7 +9,7 @@ import com.pom.prac.pages.ActionsPage;
 public class ActionsTest {
 
 	@Test
-	public void verifyMouseHover() {
+	public void testMouseHover() {
 
 		WebDriver driver = Base2.setupDriver(6);
 		ActionsPage actionsPage = new ActionsPage(driver);
@@ -18,7 +18,7 @@ public class ActionsTest {
 	}
 	
 	@Test
-	public void verifyCapitalLettersAsInputInSearchBar() {
+	public void testCapitalLettersAsInputInSearchBar() {
 		WebDriver driver = Base2.setupDriver(6);
 		ActionsPage actionsPage = new ActionsPage(driver);
 		String searchText = "mobile";

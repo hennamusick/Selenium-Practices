@@ -5,7 +5,7 @@
     <classes>
       <class name="com.pom.prac.tests.FrameTest">
         <methods>
-          <include name="verifyThatDragAndDropIsWorking"/>
+          <include name="testThatDragAndDropIsWorking"/>
         </methods>
       </class> <!-- com.pom.prac.tests.FrameTest -->
     </classes>

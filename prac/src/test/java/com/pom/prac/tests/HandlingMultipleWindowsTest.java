@@ -9,7 +9,7 @@ import com.pom.prac.pages.HandlingMultipleWindowsPage;
 public class HandlingMultipleWindowsTest {
 
 	@Test
-	public void verifyHandlingMultipleWindow() throws InterruptedException {
+	public void testHandlingMultipleWindow() throws InterruptedException {
 		WebDriver driver = Base2.setupDriver(7);
 		HandlingMultipleWindowsPage handlingMultipleWindowsPage = new HandlingMultipleWindowsPage(driver);
 		handlingMultipleWindowsPage.clickAwesomeLinkText();

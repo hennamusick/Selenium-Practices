@@ -9,7 +9,7 @@ import com.pom.prac.pages.ShoppingCartProductsPage;
 public class ShoppingCartProductsTest {
 
 	@Test
-	public void verifyThatSelectingSingleProducts() {
+	public void testThatSelectingSingleProducts() {
 		WebDriver driver = Base.setupDriverForShoppingCart();
 		ShoppingCartProductsPage shoppingCartProductsPage = new ShoppingCartProductsPage(driver);
 		shoppingCartProductsPage.gettingSingleProductToTheCart();
@@ -17,7 +17,7 @@ public class ShoppingCartProductsTest {
 	}
 	
 	@Test
-	public void verifyThatSelectingMultipleProducts() {
+	public void testThatSelectingMultipleProducts() {
 		WebDriver driver = Base.setupDriverForShoppingCart();
 		ShoppingCartProductsPage shoppingCartProductsPage = new ShoppingCartProductsPage(driver);
 		shoppingCartProductsPage.gettingMultipleProductsToTheCart();

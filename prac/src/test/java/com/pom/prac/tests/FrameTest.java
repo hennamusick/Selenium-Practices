@@ -10,7 +10,7 @@ import com.pom.prac.pages.FramePage;
 public class FrameTest {
 
 	@Test
-	public void verifyThatDragAndDropIsWorking() {
+	public void testThatDragAndDropIsWorking() {
 		WebDriver driver = Base2.setupDriver(8);
 		FramePage framePage = new FramePage(driver);
 		framePage.performDragAndDrop();

@@ -7,10 +7,10 @@
     </groups>
     <test started-at="2020-10-29T07:19:18Z" name="Default test" finished-at="2020-10-29T07:19:28Z" duration-ms="9842">
       <class name="com.pom.prac.tests.FrameTest">
-        <test-method signature="verifyThatDragAndDropIsWorking()[pri:0, instance:com.pom.prac.tests.FrameTest@1807e3f6]" started-at="2020-10-29T07:19:18Z" name="verifyThatDragAndDropIsWorking" finished-at="2020-10-29T07:19:28Z" duration-ms="9811" status="PASS">
+        <test-method signature="testThatDragAndDropIsWorking()[pri:0, instance:com.pom.prac.tests.FrameTest@1807e3f6]" started-at="2020-10-29T07:19:18Z" name="testThatDragAndDropIsWorking" finished-at="2020-10-29T07:19:28Z" duration-ms="9811" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyThatDragAndDropIsWorking -->
+        </test-method> <!-- testThatDragAndDropIsWorking -->
       </class> <!-- com.pom.prac.tests.FrameTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

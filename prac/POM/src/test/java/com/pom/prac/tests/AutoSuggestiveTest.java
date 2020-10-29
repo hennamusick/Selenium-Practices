@@ -9,7 +9,7 @@ import com.pom.prac.pages.AutoSuggestivePage;
 public class AutoSuggestiveTest {
 
 	@Test
-	public void verifyThatSuggestedValuesAreGettingDisplayedCorrectly() {
+	public void testThatSuggestedValuesAreGettingDisplayedCorrectly() {
 		WebDriver driver = Base.setupDriverAutoSuggestions();
 		AutoSuggestivePage autoSuggestivePage = new AutoSuggestivePage(driver);
 		autoSuggestivePage.addTextToCountrySearch("ind");

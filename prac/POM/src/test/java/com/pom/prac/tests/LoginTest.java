@@ -10,7 +10,7 @@ import com.pom.prac.pages.LandingPage;
 public class LoginTest {
 
 	@Test
-	public void verifyThatTheLandingPageIsNavigatedCorrectly() {
+	public void testThatTheLandingPageIsNavigatedCorrectly() {
 
 		WebDriver driver = Base.setupDriver();
 		LandingPage landingPage = new LandingPage(driver);

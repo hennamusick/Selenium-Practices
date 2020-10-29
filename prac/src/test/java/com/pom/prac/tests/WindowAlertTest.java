@@ -10,7 +10,7 @@ import com.pom.prac.pages.WindowAlertPage;
 public class WindowAlertTest {
 
 	@Test
-	public void verifyTheAcceptingAlertWindow() {
+	public void testTheAcceptingAlertWindow() {
 		WebDriver driver = Base.setupDriverForWindowAlert();
 		WindowAlertPage windowAlertPage = new WindowAlertPage(driver);
 		windowAlertPage.clickConfirmButton();

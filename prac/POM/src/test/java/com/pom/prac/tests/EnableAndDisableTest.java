@@ -11,7 +11,7 @@ import com.pom.prac.pages.EnableAndDisablePage;
 public class EnableAndDisableTest {
 
 	@Test
-	public void verifyThatReturnDateIsEnabledAtTheBeginning() {
+	public void testThatReturnDateIsEnabledAtTheBeginning() {
 		WebDriver driver = Base.setupDriverForDropDowns();
 		EnableAndDisablePage enableAndDisablePage = new EnableAndDisablePage(driver);
 		DropDownPage DropDownPage = new DropDownPage(driver);
