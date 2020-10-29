@@ -31,6 +31,7 @@ public class FramePage {
 	}
 
 	public String getValueAfterDropped() {
+		driver.switchTo().frame(0);
 		Utilities.waitForVisibilityOf(target);
 		return target.getText();
 	}
