@@ -15,7 +15,8 @@ public class Base2 {
 	static String[] urls = { "https://blazedemo.com", "https://www.spicejet.com", "https://www.spicejet.com",
 			"https://rahulshettyacademy.com/dropdownsPractise", "https://rahulshettyacademy.com/AutomationPractice",
 			"https://the-internet.herokuapp.com/dynamic_loading/1", "https://www.amazon.com",
-			"https://support.google.com/accounts", "https://jqueryui.com/droppable/" };
+			"https://support.google.com/accounts", "https://jqueryui.com/droppable/",
+			"https://www.path2usa.com/travel-companions" };
 
 	public static WebDriver setupDriver(int j) {
 		System.setProperty("webdriver.chrome.driver", "D:\\Files\\Projects\\Browsers Exe Files\\chromedriver.exe");

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.pom.prac.tests.FrameTest">
+      <class name="com.pom.prac.tests.CalenderUITest2">
         <methods>
-          <include name="testThatDragAndDropIsWorking"/>
+          <include name="testSelectingSpecificDate"/>
         </methods>
-      </class> <!-- com.pom.prac.tests.FrameTest -->
+      </class> <!-- com.pom.prac.tests.CalenderUITest2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
